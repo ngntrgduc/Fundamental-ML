@@ -8,7 +8,7 @@ This repository contains the code and data for a mini-project on facial expressi
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
     |1| Nguyễn Trung Đức | 21110269 |
-    |2|||
+    |2| Nguyễn Ngọc Huynh| 21110310 |
     |3|||
     |4|||
 
