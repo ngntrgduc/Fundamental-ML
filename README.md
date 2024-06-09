@@ -9,7 +9,7 @@ This repository contains the code and data for a mini-project on facial expressi
     | --------| -------- | ------- |
     |1| Nguyễn Trung Đức | 21110269 |
     |2| Nguyễn Ngọc Huynh| 21110310 |
-    |3|||
+    |3| Lê Công Khánh    | 21110320 |
     |4|||
 
 - The submission deadline is strict: **11:59 PM** on **June 22nd, 2024**. Commits pushed after this deadline will not be considered.
