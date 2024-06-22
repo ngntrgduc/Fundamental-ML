@@ -37,7 +37,7 @@ This repository contains the code and data for a mini-project on facial expressi
 Performance of models on test set:
 
 |Model|Accuracy|Precision|Recall|F1|
-|-----| ------ | ------- | ---- |--|
+|-----|:------:|:-------:|:----:|:-:|
 |KNN|0.34|0.36|0.34|0.33|
 |Logistic Regression|0.35|0.33|0.35|0.34|
 |Random Forest|0.47|0.49|0.47|0.45|
