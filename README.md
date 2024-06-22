@@ -23,15 +23,15 @@ This repository contains the code and data for a mini-project on facial expressi
     ![](/materials/confusion_matrix.png)
     *Confusion matrix of Random Forest model on the original dataset*
 - The dimension of the images is large: (1 x 48 x 48 = 2304 pixels (features)). Therefore, dimension reduction is necessary to achieve faster training times. Models run on dimension-reduced dataset by PCA train faster than those using the original data
-    - Because training took longer on Google Colab, we benchmarked on a machine with a 12 core, 24 thread, 3.9Hz CPU, for 3 models (KNN, Logistic Regression, Random Forest):
+    - Because training took longer on Google Colab, we benchmarked on a machine with a 12 core, 24 thread, 3.9Hz CPU, for 3 models (`KNN`, `Logistic Regression`, `Random Forest`):
         | | Original Data    | PCA Data |
         | --------| -------- | ------- |
         |Training| $\approx$ 10 minutes | $\approx$ 2 minutes |
         |Parameters Tuning| $\approx$ 1 hour 10 minutes| $\approx$ 30 minutes |
         |Cross Validation| $\approx$ 30 minutes| $\approx$ 15 minutes |
     
-- We also experimented with SVM for the dataset. Although it is slower than other algorithms, it gave slightly better results
-- Besides that, we experimented with 2 CNN models: VGG and ResNet. We could train them to outperform 3 ML models we used, but due to time and resource limitations, we could not train for more epochs. So we just used the last layer in both the VGG and ResNet models to train for 2 epochs.
+- We also experimented with `SVM` for the dataset. Although it is slower than other ML algorithms, it gave slightly better results
+- Besides that, we experimented with 2 CNN models: `VGG` and `ResNet`. We could train them to outperform 3 ML models we used, but due to time and resource limitations, we could not train for more epochs. So we just used the last layer in both the VGG and ResNet models to train for 2 epochs.
 
 ### 💪 Performance
 Performance of models on test set:
@@ -41,10 +41,10 @@ Performance of models on test set:
 |KNN|0.34|0.36|0.34|0.33|
 |Logistic Regression|0.35|0.33|0.35|0.34|
 |Random Forest|0.47|0.49|0.47|0.45|
-|VGG (2 epoch)|0.25| - | - | - |
-|ResNet (2 epoch)|0.33| - | - | - |
+|VGG (2 epochs)|0.25| - | - | - |
+|ResNet (2 epochs)|0.33| - | - | - |
 
-=> The Random Forest model gave the best performance on different metrics among the others.
+=> The `Random Forest` model gave the best performance on different metrics among the others.
 
 Other improvements:
 - Oversampling and Undersampling to prevent imbalance
